@@ -4,3 +4,84 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark { 
+    --font-weight-title: 785;
+    --font-weight-text: 465;
+    --bg-color: #000000;
+    --accent-color: #00CC14;
+    --bg-image: 
+      repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #007f0c, #004306);
+    --main-width: clamp(320px, 49%, 100%);
+    --img-label-color: rgba(0, 204, 20, 0.5);
+    --outline-color: rgba(0, 0, 0, 0.5);
+    --theme-menu-button-color: rgba(0, 204, 20, 0.6);
+    --button-text-color: var(--accent-color);
+    --heart-contour-color: var(--accent-color);
+    --heart-body-color: red;
+    --heart-sparks-color: var(--heart-body-color:);
+  } 
+   
+@media (prefers-color-scheme: dark) { 
+    :root {  
+        --font-weight-title: 785;
+        --font-weight-text: 465;
+        --bg-color: #000000;
+        --accent-color: #00CC14;
+        --bg-image: 
+          repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+          repeating-linear-gradient(0deg, #000 0 2px, transparent 2px 4px),
+          linear-gradient(to bottom, #007f0c, #004306);
+        --main-width: clamp(320px, 49%, 100%);
+        --img-label-color: rgba(0, 204, 20, 0.5);
+        --outline-color: rgba(0, 0, 0, 0.5);
+        --theme-menu-button-color: rgba(0, 204, 20, 0.6);
+        --button-text-color: var(--accent-color);
+        --heart-contour-color: var(--accent-color);
+        --heart-body-color: red;
+        --heart-sparks-color: var(--heart-body-color:);
+    } 
+  }
+
+:root.theme-light { 
+    --font-weight-title: 700;
+    --font-weight-text: 400;
+    --bg-color: #FFFFFF;
+    --accent-color: #000000;
+    --bg-image: 
+      repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #e7e7e7 0 0.01%, #1a1a1a);
+    --main-width: clamp(320px, 49%, 100%);
+    --img-label-color: rgba(0, 0, 0, 0.5);
+    --outline-color: rgba(255, 255, 255, 0.5);
+    --theme-menu-button-color: rgba(0, 0, 0, 0.6);
+    --button-text-color: var(--bg-color);
+    --heart-contour-color: var(--accent-color);
+    --heart-body-color: red;
+    --heart-sparks-color: var(--heart-body-color:);
+  } 
+   
+@media (prefers-color-scheme: light) { 
+    :root {  
+        --font-weight-title: 700;
+        --font-weight-text: 400;
+        --bg-color: #FFFFFF;
+        --accent-color: #000000;
+        --bg-image: 
+          repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+          repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+          linear-gradient(to bottom, #e7e7e7 0 0.01%, #1a1a1a);
+        --main-width: clamp(320px, 49%, 100%);
+        --img-label-color: rgba(0, 0, 0, 0.5);
+        --outline-color: rgba(255, 255, 255, 0.5);
+        --theme-menu-button-color: rgba(0, 0, 0, 0.6);
+        --button-text-color: var(--bg-color);
+        --heart-contour-color: var(--accent-color);
+        --heart-body-color: red;
+        --heart-sparks-color: var(--heart-body-color:);
+    } 
+  }
+  
