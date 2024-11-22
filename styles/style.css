@@ -336,16 +336,15 @@ img {
   padding: 15px 20px;
   background-color: var(--bg-color);
   position: relative;
-}
-
-.save-button-content {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 12px;
   align-items: center;
 }
 
-.save-button-icon {
+.save-icon {
+  position: relative;
+  z-index: 1;
   width: 21px;
   mix-blend-mode: difference;
   color: var(--button-text-color);
@@ -394,8 +393,7 @@ img {
   flex-wrap: wrap;
   gap: 12px;
   width: clamp(320px, 357px, 353px);
-  height: 195px;
-  padding: 0 32px 30px;
+  padding: 32px 30px;
   background-color: var(--bg-color);
   align-items: center;
 }
@@ -473,12 +471,13 @@ img {
     right: 11px;
   }
 
-  .save-button-content {
+  .save-button {
     flex-direction: column;
     justify-items: center;
+    gap: 9px;
   }
 
-  .save-button-icon {
+  .save-icon {
     width: 28px;
   }
 
