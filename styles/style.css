@@ -156,9 +156,7 @@ img {
 }
 
 .image-section {
-  position: relative;
-  height: clamp(49.85vh, 699px, 73.01vh)
-}
+  position: relative;}
 
 .img-label {
   font-family: var(--accent-font), monospace;
@@ -184,7 +182,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 26px 27px 20px;
+  padding: 19.5px 27px 20px;
 }
 
 .article-сontent-paragraph {
@@ -467,11 +465,7 @@ img {
   }
 
   .article-сontent {
-    padding: 20px 25px 21px;
-  }
-
-  .image-section {
-    height: clamp(368px, 49.85vh, 49.85vh)
+    padding: 24px 25px 21px;
   }
 
   .img-label {
