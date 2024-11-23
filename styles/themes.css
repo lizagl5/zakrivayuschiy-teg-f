@@ -16,7 +16,6 @@
       linear-gradient(to bottom, #007f0c, #004306);
     --img-label-color: rgba(0, 204, 20, 0.5);
     --outline-color: rgba(0, 0, 0, 0.5);
-    --theme-menu-button-color: rgba(0, 204, 20, 0.6);
     --button-text-color: var(--accent-color);
     --heart-contour-color: var(--accent-color);
     --heart-body-color: red;
@@ -35,7 +34,6 @@
           linear-gradient(to bottom, #007f0c, #004306);
         --img-label-color: rgba(0, 204, 20, 0.5);
         --outline-color: rgba(0, 0, 0, 0.5);
-        --theme-menu-button-color: rgba(0, 204, 20, 0.6);
         --button-text-color: var(--accent-color);
         --heart-contour-color: var(--accent-color);
         --heart-body-color: red;
@@ -54,7 +52,6 @@
       linear-gradient(to bottom, #e7e7e7 0 0.01%, #1a1a1a);
     --img-label-color: rgba(0, 0, 0, 0.5);
     --outline-color: rgba(255, 255, 255, 0.5);
-    --theme-menu-button-color: rgba(0, 0, 0, 0.6);
     --button-text-color: var(--bg-color);
     --heart-contour-color: var(--accent-color);
     --heart-body-color: red;
@@ -73,7 +70,6 @@
           linear-gradient(to bottom, #e7e7e7 0 0.01%, #1a1a1a);
         --img-label-color: rgba(0, 0, 0, 0.5);
         --outline-color: rgba(255, 255, 255, 0.5);
-        --theme-menu-button-color: rgba(0, 0, 0, 0.6);
         --button-text-color: var(--bg-color);
         --heart-contour-color: var(--accent-color);
         --heart-body-color: red;
